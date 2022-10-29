@@ -1,71 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-html {
-    height: 100%;
-}
-
 body {
-    background-color: #3e3f42;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-color: grey;
+
 }
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
+.card {
+    background-color: white;
+    margin: 2em;
 }
 
-header {
-    height: 120px;
+.text-Container {
     text-align: center;
 }
 
-nav {
-    background-color: rgba(34, 33, 33, 0.479); 
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+img {
+    width: max-content 100%;
 }
 
-h1 {
-    font-size: 84px;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
-
-h2 {
-    font-size: 62px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
-
-p {
-    font-size: 18px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-}
-
-a {
-    font-size: 18px;
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    
-}
-
-nav a {
-    text-decoration: bold;
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 30px;
-}
-
-footer p {
-    font-size: 15px;
-    text-align: center;
-    color: rgb(198, 198, 198);
+main {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 3fr 3fr 3fr;
+    width: 100vh;
 }
