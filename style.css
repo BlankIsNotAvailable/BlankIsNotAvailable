@@ -7,12 +7,11 @@ html {
 
 body {
     background-color: #3e3f42;
-    background-image: url(images/background-robin-cooks.jpg);
+    background-image: url(../images/background-robin-cooks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 .container {
     margin-left: auto;
