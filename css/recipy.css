@@ -5,7 +5,9 @@ body {
 
 .card {
     background-color: white;
-    margin: 2em;
+    text-align: center;
+    margin: 10px;
+    
 }
 
 .text-Container {
@@ -13,13 +15,19 @@ body {
 }
 
 img {
-    width: 50em;
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
 }
 
 main {
-
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-template-rows: 3fr 3fr 3fr;
     width: 100vh;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
 }
