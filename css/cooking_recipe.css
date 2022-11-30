@@ -17,11 +17,13 @@ main {
 .leftBox {
     box-sizing: border-box;
     border-radius: 25px;
-    background-image: url("../images/Backgrounnd Catiert.png");
+    background-color: rgba(34, 33, 33, 0.479); 
     background-size: cover;
     padding: 1em;
     width: 100%;
     margin: 1em 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -29,11 +31,15 @@ img {
     width: 100%;
     height: auto;
     grid-area: image;
+    font-size: 18px;
+
 }
 
 .list-container {
     font-size: 20px;
     border-left: 100px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 
