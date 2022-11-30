@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+
+main {
+    box-sizing: border-box;
+    padding: 0;
+    width: 1024px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+
+.leftBox {
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-image: url("../images/Backgrounnd Catiert.png");
+    background-size: cover;
+    padding: 1em;
+    width: 100%;
+    margin: 1em 0;
+}
+
+img {
+    border-radius: 25px;
+    width: 100%;
+    height: auto;
+    grid-area: image;
+}
+
+.list-container {
+    font-size: 20px;
+    border-left: 100px;
+}
+
+
+.image_container {
+    width: 90%;
+}

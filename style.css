@@ -7,7 +7,7 @@ html {
 
 body {
     background-color: #3e3f42;
-    background-image: url(../images/background-robin-cooks.jpg);
+    background-image: url(images/background-robin-cooks.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -42,10 +42,7 @@ main {
 footer {
     background-color: rgba(0, 0, 0, 0.728);
     margin-top: 90px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 h1 {
@@ -76,7 +73,7 @@ a {
 }
 
 nav a {
-    text-decoration: bold;
+    font-weight: bold;
     font-size: 20px;
     padding-left: 5px;
     padding-right: 5px;
