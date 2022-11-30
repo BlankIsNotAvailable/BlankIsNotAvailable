@@ -1,0 +1,20 @@
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 100%;
+    padding: 0;
+}
+.alone{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+section {
+    margin: 2em;
+    border-radius: 25px;
+    background-color: rgba(34, 33, 33, 0.55);
+    text-align: center;
+}
